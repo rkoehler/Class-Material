@@ -1,0 +1,8 @@
+#python 3.3.0
+#By Alfredo Alvarez
+#Demo of regular expression usage.
+
+import re
+#Usage substitution only replaces those at the end
+print(re.sub('Alvarez$' , 'Mr. Alvarez', "Hello Alvarez"))
+print(re.sub('$Alvarez' , 'Mr. Alvarez', "Hello Alvarez"))

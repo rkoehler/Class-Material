@@ -1,0 +1,6 @@
+#generators in factorials note that generators are closures
+def factorial(max):   
+    a, b = 1, 1          
+    while a < max:
+        yield a          
+        a, a = b, a * b

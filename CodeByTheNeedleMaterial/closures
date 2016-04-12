@@ -1,0 +1,8 @@
+def make_printer(msg):
+    add = 7
+    def printer():
+        print(msg + add
+    return printer
+
+printer = make_printer(Value!')
+printer()
